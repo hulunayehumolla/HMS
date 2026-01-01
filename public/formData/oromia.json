@@ -1,0 +1,188 @@
+        {
+            "name": "Oromia",
+            "zones": [
+                 {
+                 "name": "Oromia Special Zone",
+                    "woredas": [
+                        "Akaki",
+                        "Bereh",
+                        "Burayu Town",
+                        "Holeta Town",
+                        "Koye Feche",
+                        "Mulo",
+                        "Sebeta Hawas",
+                        "Sendafa Town",
+                        "Sululta",
+                        "Walmara"
+                    ]
+                },
+                {
+                    "name": "Arsi",
+                    "woredas": [
+                        "Asasa",
+                        "Dodola",
+                        "Bale Goba",
+                        "Hetosa",
+                        "Robe",
+                        "Chole",
+                        "Amigna"
+                    ]
+                },
+                {
+                    "name": "Bale",
+                    "woredas": [
+                        "Agarfa",
+                        "Dinsho",
+                        "Gasera",
+                        "Goba",
+                        "Legabatu",
+                        "Sinana",
+                        "Sawena"
+                    ]
+                },
+                {
+                    "name": "Borena",
+                    "woredas": [
+                        "Arero",
+                        "Dire",
+                        "Yabelo",
+                        "Teltele",
+                        "Moyale",
+                        "Dilo",
+                        "Meda Welabu"
+                    ]
+                },
+                {
+                    "name": "East Hararge",
+                    "woredas": [
+                        "Babille",
+                        "Deder",
+                        "Gursum",
+                        "Haramaya",
+                        "Meta",
+                        "Jarso",
+                        "Gola Oda"
+                    ]
+                },
+                {
+                    "name": "East Shewa",
+                    "woredas": [
+                        "Adama",
+                        "Batu",
+                        "Bishoftu",
+                        "Liben Chukala",
+                        "Lume",
+                        "Dugda",
+                        "Boosat"
+                    ]
+                },
+                {
+                    "name": "Guji",
+                    "woredas": [
+                        "Aba Bora",
+                        "Bore",
+                        "Hambela",
+                        "Gumi Eldalo",
+                        "Liben",
+                        "Odo Shakiso",
+                        "Uraga"
+                    ]
+                },
+                {
+                    "name": "Horo Gudru Welega",
+                    "woredas": [
+                        "Abay Chomen",
+                        "Amuru",
+                        "Horo",
+                        "Jardega Jarte",
+                        "Kuyu",
+                        "Shambu",
+                        "Jirru"
+                    ]
+                },
+                {
+                    "name": "Illubabor",
+                    "woredas": [
+                        "Alge",
+                        "Bure",
+                        "Darimu",
+                        "Metu",
+                        "Becho",
+                        "Mao-Komo",
+                        "Dega"
+                    ]
+                },
+                {
+                    "name": "Jimma",
+                    "woredas": [
+                        "Agaro",
+                        "Gera",
+                        "Gomma",
+                        "Limu Kosa",
+                        "Mana",
+                        "Omo Nada",
+                        "Seka Chekorsa"
+                    ]
+                },
+                {
+                    "name": "Kelem Welega",
+                    "woredas": [
+                        "Dale Sadi",
+                        "Dembi Dolo",
+                        "Gidami",
+                        "Hawa Galan",
+                        "Sadi Chanka",
+                        "Sayyo",
+                        "Yubdo"
+                    ]
+                },
+                {
+                    "name": "North Shewa",
+                    "woredas": [
+                        "Degem",
+                        "Fiche",
+                        "Girar Jarso",
+                        "Hidhabu Abote",
+                        "Kuyu",
+                        "Wara Jarso",
+                        "Yaya Gulele"
+                    ]
+                },
+                {
+                    "name": "South West Shewa",
+                    "woredas": [
+                        "Becho",
+                        "Tulu Bolo",
+                        "Dawo",
+                        "Illu",
+                        "Kersa Malima",
+                        "Sodo Dachi",
+                        "Waliso"
+                    ]
+                },
+                {
+                    "name": "West Hararge",
+                    "woredas": [
+                        "Anchar",
+                        "Boke",
+                        "Chiro",
+                        "Doba",
+                        "Guba Koricha",
+                        "Hawi Gudina",
+                        "Habro"
+                    ]
+                },
+                {
+                    "name": "West Shewa",
+                    "woredas": [
+                        "Ginde Beret",
+                        "Jeldu",
+                        "Ambo Zuria",
+                        "Midakegn",
+                        "Cheliya",
+                        "Bako Tibe",
+                        "Toke Kutaye"
+                    ]
+                }
+            ]
+        },

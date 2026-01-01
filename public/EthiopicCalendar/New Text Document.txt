@@ -1,0 +1,33 @@
+/*to calculate student age*/
+     function setMaxDate() {
+            const today = new Date();
+            today.setFullYear(today.getFullYear() - 3); // Set date to 3 years ago
+            const maxDate = today.toISOString().split('T')[0];
+            document.getElementById('birthdate').setAttribute('max', maxDate);
+        }
+
+        function calculateAge() {
+            const birthdateInput = document.getElementById('birthdate');
+            const ageDisplay = document.getElementById('ageDisplay');
+
+            if (!birthdateInput.value) {
+                ageDisplay.value = '';
+                return;
+            }
+
+            
+
+            const birthdate = new Date(birthdateInput.value);
+            const today = new Date();
+            let age = today.getFullYear() - birthdate.getFullYear();
+            const monthDiff = today.getMonth() - birthdate.getMonth();
+
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
+                age--;
+            }
+
+            ageDisplay.value = age;
+        }
+
+        // Initialize the max date on page load
+        document.addEventListener('DOMContentLoaded', setMaxDate);
