@@ -14,6 +14,10 @@ class ProfileController extends Controller
     /**
      * Display the user's profile form.
      */
+    public function show()
+    {
+        return view('auth.profile');
+    }
     public function edit(Request $request): View
     {
         return view('profile.edit', [

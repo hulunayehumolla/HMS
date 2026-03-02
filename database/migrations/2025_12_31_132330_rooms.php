@@ -11,22 +11,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-       Schema::create('rooms', function (Blueprint $table) {
-            $table->id();
+      
+    Schema::create('rooms', function (Blueprint $table) {
+    $table->id();
+    $table->string('room_number')->unique();
+    $table->string('room_type');
+    $table->string('floor')->nullable();
+    $table->enum('status', ['available','occupied','maintenance'])->default('available');
+    $table->timestamps();
+});
+  
 
-            $table->string('room_number')->unique();
-            $table->string('room_type');      // single, double
-            $table->string('room_status')->index(); // available, booked, maintenance
-            $table->string('room_class')->index();  // normal, vip, luxury
-
-            $table->decimal('room_price', 10, 2);
-            $table->boolean('room_is_cleaned')->default(true);
-
-            $table->json('room_services')->nullable(); // wifi, tv, minibar
-            $table->json('room_photos')->nullable();   // image paths
-
-            $table->timestamps();
-        });
 
     }
 

@@ -56,7 +56,7 @@ class User extends Authenticatable
 
    public function getFirstNameAttribute() {
             if ($this->profileable) {
-                return $this->profileable->stud_Fname ?? $this->profileable->emp_Fname;
+                return  $this->profileable->first_name;
             }
 
             return 'N/A';
@@ -64,7 +64,7 @@ class User extends Authenticatable
 
      public function getMiddleNameAttribute() {
             if ($this->profileable) {
-                return $this->profileable->stud_Mname ?? $this->profileable->emp_Mname;
+                return  $this->profileable->middle_name;
             }
 
             return 'N/A';
@@ -73,7 +73,7 @@ class User extends Authenticatable
 
      public function getLastNameAttribute() {
             if ($this->profileable) {
-                return $this->profileable->stud_Lname ?? $this->profileable->emp_Lname;
+                return  $this->profileable->last_name;
             }
 
             return 'N/A';

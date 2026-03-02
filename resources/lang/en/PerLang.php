@@ -23,7 +23,14 @@ return [
 
 'Home' => 'Home',
 'Dashboard' => 'Dashboard',
-'Title' => 'Hotel Management system',
+'Settings'=>"Settings",
+ 'Hospital' => 'Hospital',
+ 'Backup' => 'Back up',
+ 'Calendar' => 'Calendar',
+
+ 'Patients' => 'Patients',
+
+'Title' => 'Injibara Hospital Management System',
 
 'CriteriaManagement' => 'Criteria Management',
     'MainCriteria' => 'Main Criteria',

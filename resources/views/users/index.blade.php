@@ -63,7 +63,7 @@
             <tr>
                 <th scope="row">{{ $loop->iteration }}</th>
                 <td>{{ $user->username }}</td>
-                <td>{{ $user->emp_Fname }} {{ $user->emp_Mname }}. {{ substr($user->emp_Lname, 0, 1) ?? 'N/A' }}</td>
+                <td>{{ $user->first_name }} {{ $user->middle_name }}. {{ substr($user->last_name, 0, 1) ?? 'N/A' }}</td>
                 <td>{{ $user->email }}</td>
                 <td>
                     <ul class="list-unstyled">

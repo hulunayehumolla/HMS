@@ -31,6 +31,18 @@ class newPermissionSeeder extends Seeder
                  'delete-news',
             ],
 
+            'Saff Management' =>[ 
+                 'add-staff',
+                 'view-staff',
+                 'update-staff',
+                 'delete-staff',
+            ],
+            'Department Management' =>[ 
+             'add-department',
+             'update-department',
+             'delete-department',
+            ],
+
               'Room Management' =>[   
                  'add-rooms',
                  'update-rooms',

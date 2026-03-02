@@ -77,7 +77,9 @@ public function login(Request $request) {
         $user->save();
         // Check if user is active
         if ($user->status == 1) {
-             return redirect()->route('dashboard'); // Redirect to home or dashboard
+             // or fall back to 'home-page' if they went to login directly.
+                return redirect()->intended(route('dashboard'));
+             //return redirect()->route('dashboard'); // Redirect to home or dashboard
          } else {
             Auth::logout();
             $request->session()->invalidate();

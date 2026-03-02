@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login | ZaresLay</title>
+    <title>{{ config('name') }}</title>
 
     <link href="{{ asset('assets/bootstrap-5.3.1/css/bootstrap.min.css')}}" rel="stylesheet" /> 
     <link rel="stylesheet" href="{{ asset('assets/font-awesome-6.4.2/all.min.css')}}" />

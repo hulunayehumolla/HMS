@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>{{ config('name') }}</title>
+    <title>{{ config('app.name') }}</title>
 
     <link rel="icon" type="image/x-icon" href="{{ asset('logo/logo3.jpg')}} ">
     <meta name="theme-color" content="#ffffff">
@@ -269,8 +269,8 @@ html, body {
                     <div class="col-md-6 mb-3">
                         <div class="card shadow-sm border-0 p-3 rounded-3">
                             <h5 class="mb-2 " style="color:#206d8a;">Mr. Hulunayehu Molla</h5>
-                            <p><strong>Phone:</strong> <a href="tel:+251918569686" class="text-decoration-none text-dark">+251-918-569-686</a></p>
-                            <p><strong>Email:</strong> <a href="mailto:demeke.alene@inu.edu.et" class="text-decoration-none text-primary">demeke.alene@inu.edu.et</a></p>
+                            <p><strong>Phone:</strong> <a href="tel:+251918569686" class="text-decoration-none text-dark">+251-908-931-408</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:demeke.alene@inu.edu.et" class="text-decoration-none text-primary">Hulunayehu.molla@inu.edu.et</a></p>
                         </div>
                     </div>
 
@@ -294,7 +294,7 @@ html, body {
 <!-- Footer -->
 <footer class="footer d-flex justify-content-between align-items-center py-4 px-5 bg-light border-top">
     <!-- Left: University Name & Copyright -->
-    <div class="fw-bold" style="color:#13566f;">INJIBARA UNIVERSITY &copy; 2017 ዓ.ም.</div>
+    <div class="fw-bold" style="color:#13566f;">INJIBARA UNIVERSITY &copy; 2018 ዓ.ም.</div>
 
     <!-- Center: Help Center (Emphasized) -->
     <div class="text-center flex-grow-1">

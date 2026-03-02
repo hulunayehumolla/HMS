@@ -120,12 +120,10 @@
 
                 <div class="col-sm-6">
                     <label for="fullname" class="form-label">Full Name</label>
-                     @if($student!==null)
-                    <input type="text" name="fullname" class="form-control" readonly value="{{ $student->stud_Fname }} {{ $student->stud_Mname }} {{ $student->stud_Lname }}">
-                    @else
+                     
                     <input type="text" name="fullname" class="form-control" readonly value="{{ $employee->emp_Fname }} {{ $employee->emp_Mname }} {{ $employee->emp_Lname }}">
 
-                     @endif
+                    
                     
                 </div>
                 @error('name')

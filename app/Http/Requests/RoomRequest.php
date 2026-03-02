@@ -19,6 +19,7 @@ class RoomRequest extends FormRequest
             'room_status'     => 'required|in:available,booked,maintenance',
             'room_class'      => 'required|in:normal,vip,luxury',
             'room_price'      => 'required|numeric|min:0',
+            'room_size'       =>'required|numeric|min:5|max:1000',
             'room_is_cleaned' => 'boolean',
             'room_services'   => 'nullable|array',
             'room_services.*' => 'string|in:wifi,tv,minibar,ac,balcony',

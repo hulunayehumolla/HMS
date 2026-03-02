@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'name' => 'Karned Hotel',
-   // 'name' => env('APP_NAME', 'Karned Hotel'),
+    'name' => 'Injibara Hospital',
+   // 'name' => env('APP_NAME', 'Injibara Hospital'),
 
     /*
     |--------------------------------------------------------------------------

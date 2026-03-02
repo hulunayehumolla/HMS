@@ -21,9 +21,18 @@ return [
 "English"=>"እንግሊዘኛ",
 "Amharic"=>"አማርኛ",
 
+
     'Home' => 'መነሻ',
     'Dashboard' => 'ዳሽቦርድ',
-    'Title' => 'የሆቴል አስተዳደር መተግበሪያ ስርዓት ',
+
+    'Settings'=>"ቅንብር",
+    'Hospital' => 'ሆስፒታል',
+    'Backup' => 'ዳታ አውርድ',
+    'Calendar' => 'የጊዜ ሰሌዳ',
+
+    'Patients' => 'ህመምተኞች',
+
+    'Title' => 'የኢንጅባራ ሆስፒታል አስተዳደር መተግበሪያ ስርዓት ',
     'CriteriaManagement' => 'የግምገማ መስፈርት አስተዳደር',
         'MainCriteria' => 'ዋና መስፈርት',
         'SubCriteria' => ' ዝርዝር መስፈርት ',

@@ -20,7 +20,7 @@ class RedirectIfAuthenticated
     {
         if (Auth::guard($guard)->check()) {
             // Redirect authenticated users to the home page
-            return redirect('/dashboard');
+            return redirect()->intended(route('dashboard'));
         }
 
         return $next($request);

@@ -11,6 +11,7 @@ class Room extends Model
         'room_type',
         'room_status',
         'room_class',
+        'room_size',
         'room_price',
         'room_is_cleaned',
         'room_services',
@@ -33,6 +34,19 @@ class Room extends Model
     public function scopeClass($query, $class)
     {
         return $query->where('room_class', $class);
+    }
+
+
+    public function reservations()
+    {
+        return $this->hasMany(RoomReservation::class);
+    }
+
+    // Optional: current booking
+    public function currentReservation()
+    {
+        return $this->hasOne(RoomReservation::class)
+            ->where('room_res_status', 'confirmed');
     }
 }
 
